@@ -1,4 +1,4 @@
-#на входе путь до пдф файла и язык воспроизведения, а на выходе mp3 файл
+# на входе путь до пдф файла и язык воспроизведения, а на выходе mp3 файл
 
 import gtts
 import pdfplumber
@@ -9,7 +9,8 @@ from tkinter.filedialog import askopenfilename
 def pdf_to_text():
 
     window = tk.Tk()
-    intro = tk.Label(text="Выберите необходимый pdf файл\n(для продолжения закройте это окно)", width=40, height=4, font='Times 20')
+    intro = tk.Label(text="Выберите необходимый pdf файл\n(для продолжения закройте это окно)",
+                     width=40, height=4, font='Times 20')
     intro.pack()
     window.mainloop()
 
